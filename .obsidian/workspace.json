@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx Proxy Manager.md",
+                "file": "Proxmox.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx Proxy Manager.md",
+                "file": "Proxmox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx Proxy Manager.md",
+                "file": "Proxmox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx Proxy Manager.md"
+                "file": "Proxmox.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "5a5b6a0747c1e93d",
   "lastOpenFiles": [
-    "Proxmox.md",
     "Nginx Proxy Manager.md",
+    "Proxmox.md",
     "Proxmox/Image ISO.md",
     "Proxmox/Carte réseau.md",
     "Proxmox/Compte utilisateur.md",
