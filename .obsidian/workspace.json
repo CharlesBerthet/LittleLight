@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "1bc9994ba26dd52c",
+    "type": "split",
+    "children": [
+      {
+        "id": "eea6710ff1f681e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "295d567feadea729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proxmox.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99ac05b80b7037c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "87b09fbb43172d0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "132b725af252e66d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f8b0605636ef9d73",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4807aad88f7473fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d723a98890f1d07f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7b79ec96e50721b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9f842428b7b776d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Proxmox.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2ccc0ce830146aaa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Proxmox.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a9c25764d1e002ac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5b03458341964c2f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Proxmox.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "295d567feadea729",
+  "lastOpenFiles": [
+    "Proxmox.md",
+    "Proxmox/Image ISO.md",
+    "Proxmox/Carte réseau.md",
+    "Proxmox/Compte utilisateur.md",
+    "Proxmox/A2F.md",
+    "Proxmox/Fail2ban.md",
+    "Proxmox"
+  ]
+}
