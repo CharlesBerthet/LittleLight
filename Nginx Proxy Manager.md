@@ -3,38 +3,38 @@
 ### Installation de Docker
 ---
 Tout d'abord, mettre à jour la machine.
-```
+```bash
 sudo apt update
 sudo apt upgrade -y
 ```
 
 Puis installer les paquets pour Docker.
-```
+```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
 
 Récupérer la clé GPG de Docker.
-```
+```bash
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
 Ajouter le dépôt de Docker APT.
-```
+```bash
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
 Mettre de nouveau à jour la machine.
-```
+```bash
 sudo apt update
 ```
 
 Installer Docker et Docker Compose.
-```
+```bash
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugi
 ```
 
 *Optionnel* : Vérifier le statut de Docker.
-```
+```bash
 sudo systemctl status docker
 ```
 
@@ -42,22 +42,22 @@ sudo systemctl status docker
 ### Installation de Nginx Proxy Composer
 ---
 Créer un dossier pour ranger le Docker de NPM.
-```
+```bash
 mkdir -p ~/nginx-proxy-manager
 ```
 
 Se rendre dans le dossier.
-```
+```bash
 cd ~/nginx-proxy-manager
 ```
 
 Créer un fichier `yml`.
-```
+```bash
 nano docker-compose.yml
 ```
 
 Coller le contenu donner par le site : https://nginxproxymanager.com/setup/
-```
+```yml
 version: '3.8'
 services:
   app:
@@ -86,13 +86,13 @@ services:
 ```
 
 Démarrer le Docker Nginx.
-```
-aze
+```bash
+sudo docker compose up -d
 ```
 
 *Optionnel* : Vérifier le conteneur.
-```
-aze
+```bash
+sudo docker ps
 ```
 
 ### Site Web
